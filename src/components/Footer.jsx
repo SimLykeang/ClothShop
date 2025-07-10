@@ -26,7 +26,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="mt-30 md:flex md:justify-between md:items-start">
+      <div className="mt-35 md:flex md:justify-between md:items-start">
         <div className="md:w-[35%] md:flex md:flex-col md:gap-5">
           <h1 className="text-2xl font-(family-name:--font-poppin-extrabold)">
             Shop.com
