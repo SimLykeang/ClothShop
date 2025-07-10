@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="w-full max-w-[60%] bg-white rounded-lg shadow-lg p-6 m-auto mt-5">
+    <div className="w-full max-w-[60%] bg-white rounded-lg shadow-lg p-6 m-auto mt-5 mb-30">
       <h2 className="text-4xl font-bold text-gray-800 mb-4 font-(family-name:--font-poppin-bold)">
         Contact Form
       </h2>
@@ -39,7 +39,7 @@ const ContactUs = () => {
         ></textarea>
         <button
           type="submit"
-          className="bg-gradient-to-r w-[30%] m-auto from-gray-900 to-black text-white font-semibold py-2 px-4 rounded-lg mt-4 hover:bg-white hover:text-white transition duration-150"
+          className="text-[10px] sm:text-xl bg-gradient-to-r w-[40%] m-auto from-gray-900 to-black text-white font-semibold py-2 px-4 rounded-lg mt-4 hover:bg-white hover:text-white transition duration-150"
         >
           Submit
         </button>
