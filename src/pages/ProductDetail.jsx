@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
@@ -8,6 +8,9 @@ import Review from "../components/Review";
 import { data } from "../Data/allProduct";
 
 const ProductDetail = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on mount
+  }, []);
   const [count, setCount] = useState(0);
   const { id } = useParams();
   // const detailPro = data.find((d) => d.id == id);
